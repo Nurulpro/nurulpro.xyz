@@ -5,27 +5,27 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Nurulpro</title>
+    <title>Nurulpro.xyz</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/faviconnurulpro.gif" rel="icon">
-    <link href="assets/img/nurulpro.gif" rel="apple-touch-icon">
+    <link href="{{asset('public/assets/img/faviconnurulpro.gif')}}" rel="icon">
+    <link href="{{asset('public/assets/img/nurulpro.gif')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{asset('public/assets/vendor/aos/aos.css')}}" rel="stylesheet">
+    <link href="{{asset('public/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{asset('public/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+    <link href="{{asset('public/assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+    <link href="{{asset('public/assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Nurulpro - v4.3.0
@@ -86,7 +86,7 @@
                     <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
                 </div>
                 <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-                    <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+                    <img src="{{asset('public/assets/img/hero-img.png')}}" class="img-fluid animated" alt="">
                 </div>
             </div>
         </div>
@@ -101,18 +101,18 @@
 
                 <div class="row">
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-                        <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                        <img src="{{asset('public/assets/img/about.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
                         <h3> We provide Website development, Ecommerce Development, Software Development </h3>
                         <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            Nurulpro is an IT solutions Persion. Our 100% works done with latest technology. We know your demands, so our highly skilled staffs 24hours available for support. We helps many customers all over the world save time and money by offering high quality service and reasonable prices. We are currently working with various customers e-Commerce, Education Management, Hotel Management, Adverting firm,Events Management,Point of sale,local Business etc.
+                            Why chose us?
                         </p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                            <li><i class="bi bi-check-circle"></i> 100 % Customer satisfaction</li>
+                            <li><i class="bi bi-check-circle"></i> Best Sofrware Ferformance</li>
+                            <li><i class="bi bi-check-circle"></i>Qualityfull products</li>
                         </ul>
                         <a href="#" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>
                     </div>
@@ -158,7 +158,7 @@
 
                 <div class="section-title">
                     <h2>Services</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p> Nurulpro is an IT solutions Persion. Our 100% works done with latest technology. We know your demands, so our highly skilled staffs 24hours available for support.</p>
                 </div>
 
                 <div class="row gy-4">
@@ -210,7 +210,7 @@
                                 <i class="bx bx-layer"></i>
                             </div>
                             <h4><a href="">Ecommerce Development</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <p>We provide full ecommerce support as you need.</p>
                         </div>
                     </div>
 
@@ -251,7 +251,7 @@
 
                 <div class="section-title">
                     <h2>Features</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Nurulpro Bangladesh Ltd. is the brainchild of some fresh youth brain. These young minds not only dreamt about something big, they chased it. The birth of Nurulpro Bangladesh happened when a bunch of dream seekers planned for something extraordinary in the web and mobile development created a foundation, recruited efficient workers and paved the way for making the dream come true. And the best is yet to come out.</p>
                 </div>
 
                 <div class="row">
@@ -278,7 +278,7 @@
                         </div>
                     </div>
                     <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
-                        <img src="assets/img/features.svg" alt="" class="img-fluid">
+                        <img src="{{asset('public/assets/img/features.svg')}}" alt="" class="img-fluid">
                     </div>
                 </div>
 
@@ -291,7 +291,7 @@
 
                 <div class="section-title">
                     <h2>Testimonials</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Magnam commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
 
                 <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -304,7 +304,7 @@
                                     Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
-                                <img src="assets/img/testimonials/testimonials.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/assets/img/testimonials/testimonials.jpg')}}" class="testimonial-img" alt="">
                                 <h3>Saul Goodman</h3>
                                 <h4>Ceo &amp; Founder</h4>
                             </div>
@@ -317,7 +317,7 @@
                                     Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
-                                <img src="assets/img/testimonials/testimonials1.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/assets/img/testimonials/testimonials1.jpg')}}" class="testimonial-img" alt="">
                                 <h3>Sara Wilsson</h3>
                                 <h4>Designer</h4>
                             </div>
@@ -330,7 +330,7 @@
                                     Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
-                                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
                                 <h3>Jena Karlis</h3>
                                 <h4>Store Owner</h4>
                             </div>
@@ -343,7 +343,7 @@
                                     Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
-                                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
                                 <h3>Matt Brandon</h3>
                                 <h4>Freelancer</h4>
                             </div>
@@ -356,7 +356,7 @@
                                     Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
-                                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
                                 <h3>John Larson</h3>
                                 <h4>Entrepreneur</h4>
                             </div>
@@ -375,7 +375,7 @@
 
                 <div class="section-title">
                     <h2>Portfolio</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Here is our Portfolio for our services which are done by us. It's just for your satisfaction that we are here to edit your product correctly and values with comfortable price..</p>
                 </div>
 
                 <div class="row">
@@ -383,7 +383,7 @@
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
                             <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
+                            <li data-filter=".filter-Ecommerce">Ecommerce</li>
                             <li data-filter=".filter-web">Web</li>
                         </ul>
                     </div>
@@ -393,13 +393,13 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio.png" class="img-fluid" alt="">
+                            <img src="{{asset('public/assets/img/portfolio/portfolio.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 1</h4>
                                 <p>App</p>
                             </div>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                                <a href="{{asset('public/assets/img/portfolio/portfolio.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                                 <a href="http://www.imageexpert24.com/" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
@@ -407,13 +407,13 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio1.png" class="img-fluid" alt="">
+                            <img src="{{asset('public/assets/img/portfolio/portfolio1.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Web 3</h4>
                                 <p>Web</p>
                             </div>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                <a href="{{asset('public/assets/img/portfolio/portfolio1.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                                 <a href="http://sh.desherkhabor24.com/" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
@@ -421,27 +421,27 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio2.png" class="img-fluid" alt="">
+                            <img src="{{asset('public/assets/img/portfolio/portfolio2.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 2</h4>
                                 <p>App</p>
                             </div>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                                <a href="{{asset('public/assets/img/portfolio/portfolio2.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                                 <a href="http://sh.desherkhabor24.com/" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-Ecommerce">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio3.png" class="img-fluid" alt="">
+                            <img src="{{asset('public/assets/img/portfolio/portfolio3.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
+                                <h4>Ecommerce 2</h4>
+                                <p>Ecommerce</p>
                             </div>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                                <a href="{{asset('public/assets/img/portfolio/portfolio3.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ecommerce 2"><i class="bx bx-plus"></i></a>
                                 <a href="http://desherkhabor24.com/" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
@@ -450,28 +450,28 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/assets/img/portfolio/portfolio4.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 3</h4>
                                 <p>App</p>
                             </div>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="{{asset('public/assets/img/portfolio/portfolio4.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                                <a href="http://www.imageexpert24.com/" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-Ecommerce">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/assets/img/portfolio/portfolio5.png')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
+                                <h4>Ecommerce 1</h4>
+                                <p>Ecommerce</p>
                             </div>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="{{asset('public/assets/img/portfolio/portfolio5.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ecommerce 1"><i class="bx bx-plus"></i></a>
+                                <a href="http://desherkhabor24.com/" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -485,7 +485,7 @@
         </section><!-- End Portfolio Section -->
 
         <!-- ======= Pricing Section ======= -->
-        <section id="pricing" class="pricing section-bg">
+        <!-- <section id="pricing" class="pricing section-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -567,7 +567,9 @@
                 </div>
 
             </div>
-        </section><!-- End Pricing Section -->
+        </section> -->
+        
+        <!-- End Pricing Section -->
 
         <!-- ======= Frequently Asked Questions Section ======= -->
         <section id="faq" class="faq">
@@ -575,7 +577,7 @@
 
                 <div class="section-title">
                     <h2>Frequently Asked Questions</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Magnam commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
 
                 <div class="faq-list">
@@ -637,7 +639,7 @@
 
                 <div class="section-title">
                     <h2>Contact</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>nurulpro is giving best service 24 hours tarn around time. We give service with quickly, in time, quality with affordable price. So contact with us within short time.</p>
                 </div>
 
                 <div class="row">
@@ -645,7 +647,9 @@
                         <div class="info-box mb-4">
                             <i class="bx bx-map"></i>
                             <h3>Our Address</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <p> 384/7/1 <br>
+                                East Rampura Dhaka - 1219<br>
+                                Bangladesh</p>
                         </div>
                     </div>
 
@@ -653,7 +657,7 @@
                         <div class="info-box  mb-4">
                             <i class="bx bx-envelope"></i>
                             <h3>Email Us</h3>
-                            <p>contact@example.com</p>
+                            <p>nurulpro24@gmail.com</p>
                         </div>
                     </div>
 
@@ -661,7 +665,7 @@
                         <div class="info-box  mb-4">
                             <i class="bx bx-phone-call"></i>
                             <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
+                            <p>+8801821554477</p>
                         </div>
                     </div>
 
@@ -715,11 +719,11 @@
                     <div class="col-lg-3 col-md-6 footer-contact">
                         <h3>Nurulpro</h3>
                         <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            384/7/1 <br>
+                            East Rampura Dhaka - 1219<br>
+                            Bangladesh <br><br>
+                            <strong>Phone:</strong>+8801821554477<br>
+                            <strong>Email:</strong>nurulpro24@gmail.com<br>
                         </p>
                     </div>
 
@@ -747,7 +751,7 @@
 
                     <div class="col-lg-4 col-md-6 footer-newsletter">
                         <h4>Join Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <p>If you subscribe to our newsletter you will receive any updates from us</p>
                         <form action="" method="post">
                             <input type="email" name="email"><input type="submit" value="Subscribe">
                         </form>
@@ -788,16 +792,16 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="{{asset('public/assets/vendor/aos/aos.js')}}"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="{{asset('public/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+    <script src="{{asset('public/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('public/assets/vendor/php-email-form/validate.js')}}"></script>
+    <script src="{{asset('public/assets/vendor/purecounter/purecounter.js')}}"></script>
+    <script src="{{asset('public/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{asset('public/assets/js/main.js')}}"></script>
 
 </body>
 
