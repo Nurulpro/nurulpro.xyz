@@ -35,16 +35,19 @@
   ======================================================== -->
 </head>
 
-<body>
+<body class="antialiased">
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top ">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center justify-content-between">
-            <h1 class="logo"><a href="index.html">Nurulpro</a></h1>
+            <h1 class="logo"><a href="http://nurulpro.xyz/">Nurulpro</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
             <nav id="navbar" class="navbar">
+
+
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -68,12 +71,46 @@
                     </li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                    
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
+<ul>
+<li>
+
+                <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+            @if (Route::has('login'))
+                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                    @auth
+                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                    @else
+                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
+
+           
+           
+        </div>
+                
+</li>
+</ul>         
             </nav><!-- .navbar -->
 
+          
+      
+
         </div>
+
+   
     </header><!-- End Header -->
+
+
+
+  
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
